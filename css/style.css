@@ -26,7 +26,7 @@ body{
     
 } 
 
-#header-contant-details h1{
+#header-contant-details h2{
     font-size: 50px;
     opacity: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -215,7 +215,7 @@ body{
     background-image: radial-gradient(#04606e,#214b52 );
     color: white;
  }
- .suscription-update h1{
+ .suscription-update h2{
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
@@ -238,15 +238,32 @@ body{
     text-align: left;
 }
 .suscription-update  button{
-    padding: 10px 20px;
+    padding: 20px 10px;
     margin-left: -8px;
-
+    font-size: 16px;
+    
     width: 20%;
     border-radius: 5px;
     border: 1px solid rgb(163, 242, 248);
     background-color: gold;
+     
 }
 
+
+/* start footer */
+#footer-box{
+    padding: 100px 200px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+}
+#footer-box h2{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: #04606e;
+}
  
- 
- 
+
