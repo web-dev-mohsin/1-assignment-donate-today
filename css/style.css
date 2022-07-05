@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+#header-section-image{
+    background-image: url(../images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+}
