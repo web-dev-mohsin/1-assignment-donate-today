@@ -127,9 +127,12 @@ body{
 
 /* end second section */
 
+#donate-plane-main-section{
+    margin: 20px 150px;
+}
  .thir-flex{
     display: flex;
-    margin: 60px;
+     
  }
  .iteam-plan div{
     padding: 20px ;
@@ -137,6 +140,7 @@ body{
     border: 0.5px solid #11d9f8;
     margin: 20px;
     border-radius: 10px;
+    color: white;
  }
 
  #donate-plane-heading{
@@ -148,22 +152,101 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  }
  #donate-plane-heading p{
-    font-size: 18;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(63, 63, 63);
-    padding: 5px 400px;
+    padding: 5px 200px;
     line-height: 30px;
  }
- #donate-iteam{
-    background-color: #e8f6f8;
+ #donate-iteam-1{
+    background-color: #1b7e92;
  }
- #donate-iteam{
+ #donate-iteam-2{
 
-    background-color: #d5eaec;
+    background-color: #3baac0;
  }
  
- #donate-iteam{
-    background-color: #e0f8fc;
+ #donate-iteam-3{
+    background-color: #1b7e92;
  }
+
+ /* end third donate plane section */
+
+ /* start fourth live depent section */
+ .flex-box{
+    display: flex;
+    margin: 50px;
+ }
+ .widht-half{
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+ }
+ .widht-half img{
+    border-radius: 10px;
+     
+ }
+ .widht-half h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .widht-half p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 63, 63);
+     margin-bottom: 20px;
+    line-height: 30px;
+ }
+
+ .widht-half a{
+    background-image: radial-gradient(#04606e,#214b52 );
+    padding: 15px 50px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgb(149, 255, 250);
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+ }
+
+ /* start suscription update */
+ .suscription-update{
+    padding: 20px 350px;
+    text-align: center;
+    background-image: radial-gradient(#04606e,#214b52 );
+    color: white;
+ }
+ .suscription-update h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .suscription-update p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+     margin-bottom: 20px;
+    line-height: 30px;
+ }
+
+ .suscription-update input{
+    padding: 10px 30px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid rgb(163, 242, 248);
+    margin-bottom: 20px;
+}
+.suscription-update input[placeholder]{
+    text-align: left;
+}
+.suscription-update  button{
+    padding: 10px 20px;
+    margin-left: -8px;
+
+    width: 20%;
+    border-radius: 5px;
+    border: 1px solid rgb(163, 242, 248);
+    background-color: gold;
+}
+
+ 
  
  
