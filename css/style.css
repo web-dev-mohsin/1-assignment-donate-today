@@ -271,6 +271,40 @@ body{
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+#container-form{
+    width: 100%;
+    background-color: #04606e;
+}
+#contact-form{
+    
+    
+    width: 60%;
+    margin: auto;
+    
+}
+#contact-form td{
+    display: block;
+    margin: 20px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#contact-form input{
+  padding: 5px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+#contact-form textarea{
+    padding: 5px;
+    width: 500px;
+    border-radius: 5px;
+  }
+#contact-form input[type="submit"]{
+    width: 200px;
+    background-color: yellow;
+}
 h1{
     color: #04606e;
 }
