@@ -183,6 +183,10 @@ body{
     width: 50%;
  }
  .widht-half img{
+    
+    height: 350px;
+    padding: 10px;
+    border: 1px solid rgb(201, 199, 199);
     border-radius: 10px;
      
  }
